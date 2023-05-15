@@ -1,8 +1,6 @@
 ﻿Console.WriteLine("Imput a number: ");
-int a = Convert.ToInt32(Console.ReadLine());
-int i = -a;
-while (i <= a)
+int a = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+for (int i = -a; i <= a; i++)
 {
     Console.WriteLine(i);
-    i++;
 }
