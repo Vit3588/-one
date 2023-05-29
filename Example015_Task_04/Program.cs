@@ -7,11 +7,11 @@ int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 if (b > a)
 {
-    b = max;
+    max = b;
 }
 if (c > max)
 {
-    c = max;
+    max = c;
 }
 Console.Write("max=");
 Console.WriteLine(max);
